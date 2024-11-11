@@ -3,42 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simply Me</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font embed link (Itim) -->
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <!-- font embed link (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Hahmlet:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-   body {
-    background-image: url("assets/Backdrop.svg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-   }
-
-   .container-box {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 300px;
-    padding: 20px;
-   }
-
-   h1 {
-    font-family: "Itim", cursive;
-    font-size: 3em;
-    opacity: 0%;
-   }
-
-   p {
-    text-align: center;
-   }
-</style>
+<link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
@@ -47,51 +21,39 @@
     </div> -->
 
     <div class="container-box">
-        <h1>
-            I'm Simply Me!
-        </h1>
-        <h1>
-            I'm Simply Me!
-        </h1>
-        <h1>
-            I'm Simply Me!
-        </h1>
-        <h1>
-            I'm Simply Me!
-        </h1>
-        <h1>
-            I'm Simply Me!
-        </h1>
-        <h1>
-            I'm Simply Me!
-        </h1>
-        <h1>
-            I'm Simply Me!
-        </h1>
-        <h1>
-            I'm Simply Me!
-        </h1>
-        <h1>
-            I'm Simply Me!
-        </h1>
-        <h1>
-            I'm Simply Me!
-        </h1>
+        <div class="round-bg">
+            <img class="fit-image" src="assets/Logo.png">
+        </div>
+        <div class="menu">
+            <a href="about/index.html" class="Itim-small">About</a>
+        </div>
+        <div class="menu">
+            <a href="contact/index.html" class="Itim-small">Contact</a>
+        </div>
+        <div class="title-grid Itim-title">
+            I love Me, I'm Simply Me
+        </div>
+        <div class="description inter-regular">
+            <p>
+                Welcome! Stay tuned for our doll’s launch to begin or continue <br> embracing wellness, self-esteem, learning, and representation!
+            </p>
+        </div>
+        <div class="input-form Itim-small" style="grid-column: span 2 / 3;" contenteditable="true">
+            Your Name Here
+        </div>
+        <div class="input-form Itim-small" contenteditable="true">
+            Your Email Here
+        </div>
+        <button style="grid-row-start: 5; grid-column: span 1 / 4;" class="Itim-small">
+            Subscribe
+        </button>
         <p>
-            What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            
-            Why do we use it?
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            
-            
-            Where does it come from?
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-            
-            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. 
+          
         </p>
     </div>
  
-    
+    <script>
+
+    </script>
 </body>
 </html>

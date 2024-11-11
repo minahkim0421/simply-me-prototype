@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("assets/Website background-01.svg");background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 5000px;
+}
+
+.container-box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 80px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Itim", cursive;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.round-bg {
+    background-color: white;
+    border-radius: 100px;
+    height: 70px;
+    padding: 10px;
+}
+
+.fit-image {
+    width: 200px;
+    height: auto;
+}
+
+.menu {
+    padding-top: 10px;
+    padding-right: 0;
+}
+
+.Itim-small {
+    font-family: "Itim", cursive;
+    font-size: 30px;
+    text-align: bottom;
+}
+
+.Itim-title {
+    font-family: "Itim", cursive;
+    font-size: 120px;
+    text-align: center;
+}
+
+.title-grid {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    padding-top: 160px;
+    grid-column: span 7 / 7;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.description {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column: span 5 / 6;
+    font-size: 1.8em;
+    /* background-color: red; */
+    height: 150px;
+}
+
+.input-form {
+    background-color: white;
+    border-radius: 100px;
+    border: 6px solid skyblue;
+    grid-row-start: 4;
+    grid-column: span 3 / 6;
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    border: 6px solid skyblue;
+    height: 70px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: skyblue;
+}
