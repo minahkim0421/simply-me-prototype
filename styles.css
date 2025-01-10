@@ -80,7 +80,6 @@ a {
     grid-column-start: 1;
     grid-column: span 5 / 6;
     font-size: 1.8em;
-    /* background-color: red; */
     height: 150px;
 }
 
